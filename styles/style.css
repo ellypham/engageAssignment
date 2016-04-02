@@ -1,0 +1,315 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  margin: 0;
+  background: #f9f9f9;
+  margin-bottom: 100px; }
+
+h1, h2, h3, h4, h5, p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  padding: 5px; }
+
+header img {
+  max-width: 100%;
+  margin-top: -3px;
+  position: relative; }
+
+h1 {
+  color: white;
+  font-size: 3.5em;
+  font-weight: 900;
+  text-shadow: 2px 2px black; }
+
+h2 {
+  color: #006B91;
+  font-size: 22px;
+  font-weight: 700; }
+
+h3 {
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 10px; }
+
+h4 {
+  color: #707070;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 10px 0 0 10px; }
+
+p {
+  color: #707070;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 10px 0 0 10px; }
+
+ul {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  padding-top: 10px; }
+
+li {
+  margin: 0 auto; }
+
+ul p {
+  padding: 0; }
+
+button {
+  background: #006B91;
+  color: white;
+  border: none;
+  float: right;
+  margin: 0 5px 5px 5px; }
+
+button:hover {
+  background: #4397CC;
+  color: white;
+  border: none;
+  float: right;
+  margin: 0 5px 5px 5px; }
+
+section {
+  margin-bottom: 50px; }
+
+.price {
+  color: #4397CC;
+  font-size: 30px;
+  font-weight: 400;
+  padding: 0; }
+
+.per {
+  font-size: 16px;
+  font-weight: 400; }
+
+.nav {
+  background: url(../images/navigationMenu_01.jpg) no-repeat;
+  height: 40px;
+  background-size: cover;
+  margin: 0 auto; }
+
+.headerImage {
+  background: url(../images/headerImage_02.jpg) no-repeat;
+  height: 170px;
+  background-size: cover;
+  margin: 0 auto; }
+
+.headerImage h1 {
+  text-align: center;
+  padding-top: 20px; }
+
+.week {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 59%;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: -60px; }
+
+.week p,
+.week h4 {
+  color: white; }
+
+.color {
+  width: 22%; }
+
+.blue {
+  height: 140px;
+  background: #4397CC;
+  position: relative; }
+
+.blue:hover, .red:hover, .yellow:hover, .grey:hover {
+  border-bottom: 6px solid #12E3ff;
+  box-sizing: border-box;
+  transition: 0.3s; }
+
+.blue:active {
+  border-bottom: 5px solid #12E3ff;
+  box-sizing: border-box; }
+
+.red {
+  height: 140px;
+  background: #E3604C;
+  position: relative; }
+
+.yellow {
+  height: 140px;
+  background: #FDAD0F;
+  position: relative; }
+
+.grey {
+  height: 140px;
+  background: #707070;
+  position: relative; }
+
+i {
+  color: white;
+  padding-top: 10px;
+  padding-right: 10px;
+  float: right; }
+
+.mainBody {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: white; }
+
+.paycheck {
+  width: 50%;
+  margin-right: 5px;
+  box-shadow: 1px 1px 1px #707070; }
+
+.paycheck img {
+  max-width: 100%; }
+
+.savingsCalculator {
+  width: 50%;
+  margin-left: 5px;
+  background: white;
+  box-shadow: 1px 1px 1px #707070; }
+
+.savingsCalculator h4 {
+  padding-top: 30px; }
+
+.spriteButton {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  padding-top: 10px; }
+
+.icon {
+  background: url(../images/week-1-sprite.png);
+  height: 95px;
+  width: 100px;
+  margin: 10px; }
+
+#coffee_btn {
+  background-position: 0px -95px;
+  zoom: 0.50; }
+
+#cig_btn {
+  background-position: -95px 0px;
+  zoom: 0.50; }
+
+#food_btn {
+  background-position: -190px 0px;
+  zoom: 0.50; }
+
+#drinks_btn {
+  background-position: -285px 0px;
+  zoom: 0.50; }
+
+#dine_btn {
+  background-position: -380px 0px;
+  zoom: 0.50; }
+
+.savingsCalculator h3 {
+  background: #4397CC; }
+
+.savingsCalculator h4 {
+  text-align: center; }
+
+.savingsCalculator p {
+  text-align: left; }
+
+.week2 {
+  display: none; }
+
+.display-flex {
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important; }
+
+.active {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.hide {
+  display: none; }
+
+.lifeIncome {
+  width: 50%;
+  margin-right: 5px;
+  box-shadow: 1px 1px 1px #707070; }
+
+.lifeIncome img {
+  max-width: 100%; }
+
+.session {
+  width: 50%;
+  position: relative;
+  box-shadow: 1px 1px 1px #707070; }
+
+.session img {
+  width: 100%;
+  height: 332px; }
+
+.button {
+  position: absolute;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  bottom: 51px;
+  right: 65px;
+  text-transform: uppercase; }
+
+@media (max-width: 1125px) {
+  .button {
+    position: absolute;
+    bottom: 51px;
+    right: 49px; } }
+
+@media (max-width: 1035px) {
+  .button {
+    position: absolute;
+    bottom: 51px;
+    right: 38px; } }
+
+/* Portrait tablet and small desktops */
+@media (max-width: 940px) {
+  .color {
+    width: 45%;
+    margin-top: 20px;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+  .paycheck, .savingsCalculator, .lifeIncome, .session {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 10px; }
+  .mainBody {
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .button {
+    position: absolute;
+    bottom: 51px;
+    right: 25px; } }
+
+@media (max-width: 768px) {
+  .color {
+    width: 40%; }
+  .button {
+    position: absolute;
+    bottom: 51px;
+    right: 45px; } }
